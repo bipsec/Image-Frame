@@ -5,6 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91fdbf99-34d3-49c9-afb5-323b824e0e68" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birds/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -30,16 +61,21 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ED6WwO3M3tz7KgdeKkkdU3tekB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/home/lenovo/Astha IT/Image-Frame",
     "list.type.of.created.stylesheet": "CSS",
@@ -72,7 +108,8 @@
       <option name="presentableId" value="Default" />
       <updated>1662117844303</updated>
       <workItem from="1662117849371" duration="767000" />
-      <workItem from="1662118750576" duration="2993000" />
+      <workItem from="1662118750576" duration="3063000" />
+      <workItem from="1662136651090" duration="7265000" />
     </task>
     <servers />
   </component>
@@ -89,5 +126,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
