@@ -13,11 +13,6 @@ body {
     padding: 2rem max(1rem, 5vw);
 }
 
-
-h3 {
-    margin: 0 0 10px;
-}
-
 .main-container {
     position: relative;
     margin: 10px;
@@ -43,8 +38,10 @@ h3 {
 
 .gallery {
     display: grid;
-    grid: auto-flow dense 100px 200px / repeat(12, 1fr);
-    gap: 1rem;
+    /*grid: auto-flow dense 100px 200px / repeat(10, 1fr);*/
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0.5rem;
     margin: 0;
     padding: 0;
 }
@@ -59,9 +56,12 @@ h3 {
             0.8px 1.6px 2px -0.8px hsl(0deg 0% 0% / 0.36),
             2.1px 4.1px 5.2px -1.7px hsl(0deg 0% 0% / 0.36),
             5px 10px 12.6px -2.5px hsl(0deg 0% 0% / 0.36);
-    grid-column: span 2;
-    grid-row: span 2;
-
+    /*grid-column: span 2;*/
+    /*grid-row: span 2;*/
+    min-width: 25px;
+    min-height: 25px;
+    max-width: 250px;
+    max-height: 250px;
 }
 
 
@@ -73,10 +73,5 @@ img {
     border-radius: inherit;
 }
 
-
-/*@media (prefers-color-scheme: dark) {*/
-/*    .main-container.dark-scheme   { background:  #333; color: white; }*/
-/*    .main-container.dark-scheme { background: black; color:  #ddd; }*/
-/*}*/
 
 
