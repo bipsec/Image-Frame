@@ -34,3 +34,14 @@ unorderedListBirds.classList.add('gallery');
 const element2 = document.getElementById('container2')
 element2.appendChild(unorderedListBirds);
 
+const flowers = document.getElementsByClassName('card');
+
+for (let flowerName = 1; flowerName <= 24; flowerName ++){
+    let listOfImages = document.createElement('img');
+    listOfImages.src = `Images/${flowerName}.jpg`;
+    flowers.appendChild(listOfImages);
+}
+
+
+
+
