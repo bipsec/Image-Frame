@@ -6,7 +6,6 @@ html {
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
-    /*padding: 30px 0;*/
     margin: 0;
     color: white;
     background-color: #282828;
@@ -42,7 +41,7 @@ img {
     margin-bottom: 100px;
 
     display: grid;
-    gap: 0.5rem;
+    /*gap: 1rem;*/
 
     /* Explicit grid */
     grid-template-areas:
@@ -51,94 +50,35 @@ img {
     'w  🌟 🌟 🌟 🌟 🌟 🌟 🌟 🌟 l'
     'v  u  t  s  r  q  p  o  n  m';
 
-    grid-template-rows: repeat(10, 25%);
-    grid-template-columns: auto;
+    grid-template-rows: repeat(4,auto);
+    grid-template-columns: repeat(10,auto);
 
     --stagger-delay: 100ms;
 }
 
-@media (min-width: 320px) and (max-width: 425px) {
-    .animated-grid {
-        grid-template-areas:
-        'a  b  c  d  e'
-        'n  🌟 🌟 🌟 f'
-        'm  🌟 🌟 🌟 g'
-        'l  k  j  i h';
 
-        grid-template-rows: repeat(5, 35%);
-
+@keyframes cardEntrance {
+    from{
+        opacity: 0;
+        transform: translateX(100%);
+        filter: hue-rotate(180deg);
+    }
+    to{
+        opacity: 1;
+        transform: scale(100%);
+        filter: hue-rotate(0deg);
     }
 }
-@media (min-width: 425px) and (max-width: 768px) {
-    .animated-grid {
-        grid-template-areas:
-        'a  b  c  d  e  f'
-        'p  🌟 🌟 🌟 🌟 g'
-        'o  🌟 🌟 🌟 🌟 h'
-        'n  m  l  k  j  i';
-        grid-template-rows: repeat(6, 30%);
-
-    }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-    .animated-grid {
-
-        /* Explicit grid */
-        grid-template-areas:
-        'a  b  c  d  e  f  g'
-        'r  🌟 🌟 🌟 🌟 🌟 h'
-        'q  🌟 🌟 🌟 🌟 🌟 i'
-        'p  o  n  m  l  k  j';
-        grid-template-rows: repeat(7, 30%);
-
-    }
-}
-@media (min-width: 1024px) and (max-width: 1440px) {
-    .animated-grid {
-
-        /* Explicit grid */
-        grid-template-areas:
-        'a  b  c  d  e  f  g  h'
-        't  🌟 🌟 🌟 🌟 🌟 🌟 i'
-        's  🌟 🌟 🌟 🌟 🌟 🌟 j'
-        'r  q  p  o  n  m  l  k';
-        grid-template-rows: repeat(8, 25%);
-
-    }
-}
-@media (min-width: 1440px) and (max-width: 2560px){
-    .animated-grid {
-
-        /* Explicit grid */
-        grid-template-areas:
-        'a  b  c  d  e  f  g  h  i  j'
-        'x  🌟 🌟 🌟 🌟 🌟 🌟 🌟 🌟 k'
-        'w  🌟 🌟 🌟 🌟 🌟 🌟 🌟 🌟 l'
-        'v  u  t  s  r  q  p  o  n  m';
-        grid-template-rows: repeat(10, 25%);
-    }
-}
-
-/*@keyframes cardEntrance {*/
-/*    from{*/
-/*        opacity: 0;*/
-/*        transform: scale(0.3);*/
-/*        filter: hue-rotate(180deg);*/
-/*    }*/
-/*    to{*/
-/*        opacity: 1;*/
-/*        transform: scale(1);*/
-/*        filter: hue-rotate(0deg);*/
-/*    }*/
-/*}*/
 
 .card{
-    background-color: rgb(36,243,147);
+    background-color: #282828;
+    border-color: rgb(36,243,147);
     animation: cardEntrance 700ms ease-out;
     animation-fill-mode: backwards;
     align-items: center;
     justify-content: center;
-    transition: tranform 1s revert;
+    transition: all 0.5s ease-in-out inherit;
+
 }
 
 .card:nth-child(1){
@@ -261,4 +201,70 @@ img {
     justify-content: center;
 
 }
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .animated-grid {
+        grid-template-areas:
+        'a  b   c  d  e  f  g  h i'
+        'v  🌟 🌟 🌟 🌟 🌟 🌟 🌟 j'
+        'u  🌟 🌟 🌟 🌟 🌟 🌟 🌟 k'
+        't  s  r  q  p  o  n  m  l';
+
+        grid-template-rows: repeat(10, 25%);
+
+    }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+    .animated-grid {
+        grid-template-areas:
+        'a  b  c  d  e  f'
+        'p  🌟 🌟 🌟 🌟 g'
+        'o  🌟 🌟 🌟 🌟 h'
+        'n  m  l  k  j  i';
+        grid-template-rows: repeat(6, 30%);
+
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .animated-grid {
+
+        /* Explicit grid */
+        grid-template-areas:
+        'a  b  c  d  e  f  g'
+        'r  🌟 🌟 🌟 🌟 🌟 h'
+        'q  🌟 🌟 🌟 🌟 🌟 i'
+        'p  o  n  m  l  k  j';
+        grid-template-rows: repeat(7, 30%);
+
+    }
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .animated-grid {
+
+        /* Explicit grid */
+        grid-template-areas:
+        'a  b  c  d  e  f  g  h'
+        't  🌟 🌟 🌟 🌟 🌟 🌟 i'
+        's  🌟 🌟 🌟 🌟 🌟 🌟 j'
+        'r  q  p  o  n  m  l  k';
+        grid-template-rows: repeat(8, 25%);
+
+    }
+}
+@media (min-width: 1440px) and (max-width: 2560px){
+    .animated-grid {
+
+        /* Explicit grid */
+        grid-template-areas:
+        'a  b  c  d  e  f  g  h  i  j'
+        'x  🌟 🌟 🌟 🌟 🌟 🌟 🌟 🌟 k'
+        'w  🌟 🌟 🌟 🌟 🌟 🌟 🌟 🌟 l'
+        'v  u  t  s  r  q  p  o  n  m';
+        grid-template-rows: repeat(10, 25%);
+    }
+}
+
+
+
+
 
